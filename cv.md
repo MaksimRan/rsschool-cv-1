@@ -14,7 +14,9 @@ I want to change my profession from an automated control system software enginee
 My main job is programming industrial logic controllers and ABB robot manipulator. This requires the development of correct logical sequences.
 Also, in my daily work, I have to work with local networks, VPN connections, virtual machines, setting up personal computers, Linux.  
 I rate myself responsible enough. I can establish good communication with people, I am quite correct. I have a mathematical mindset. I can work hard if necessary.
-I always try to learn something new, I like to learn. At first, I worked at the company as working specialty, but if possible, I moved to the position of software engineer. I was not afraid of the fact that I had to study a lot of different documentation. Therefore, I am sure that I will be able to prove myself when studying a new profession.
+I always try to learn something new, I like to learn. At first, I worked at the company as working specialty, but if possible, I moved to the position of software engineer. I was not afraid of the fact that I had to study a lot of different documentation. Therefore, I am sure that I will be able to prove myself when studying a new profession.  
+
+> ...you can not win if you don not play
 
 ****
 ## Skills
