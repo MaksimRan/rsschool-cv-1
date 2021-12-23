@@ -4,9 +4,9 @@
 ### Contact info  
 + **Location:**   Gomel, Belarus
 + **Email:**      rydvone@gmail.com
-+ **Linkedin:**   alexander-verbitsky
++ **Linkedin:**   [alexander-verbitsky](https://www.linkedin.com/in/alexander-verbitsky-67243921a/ 'linkedin')
 + **Discord:**	  Alexander V (@rydvone)	
-+ **Github:**     rydvone
++ **Github:**     [rydvone](https://github.com/rydvone)
 ****
 ### About me
 I want to change my profession from an automated control system software engineer to an IT software engineer.  
@@ -48,4 +48,4 @@ ABB Robot Programming Course: "Course RU002 Robot Programmer (IRC5)"
 Course "Basics of programming OMRON logic controllers"
 ****
 ## English
-A2  
+A2
