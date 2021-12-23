@@ -50,4 +50,4 @@ apr. 2012 – feb. 2019
   * Course "Basics of programming OMRON logic controllers"
 ****
 ## English
-A2
+A2  (EPAM English test result)
