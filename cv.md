@@ -39,13 +39,15 @@ feb. 2019 – till now
 apr. 2012 – feb. 2019
 ****
 ## Education 
-**Universiry:**  
-Sukhoi State Technical University of Gomel, Industrial Electronics, Engineer by radio electronics, Bachelor's degree  
-Sukhoi State Technical University of Gomel, Industrial Electronics, Master's degree  
-****
+**University:**  
+  * Sukhoi State Technical University of Gomel, Industrial Electronics, Engineer by radio electronics  
+  Bachelor's degree
+  * Sukhoi State Technical University of Gomel, Industrial Electronics,  
+  Master's degree  
+
 **Course:**  
-ABB Robot Programming Course: "Course RU002 Robot Programmer (IRC5)"  
-Course "Basics of programming OMRON logic controllers"
+  * ABB Robot Programming Course: "Course RU002 Robot Programmer (IRC5)"
+  * Course "Basics of programming OMRON logic controllers"
 ****
 ## English
 A2
