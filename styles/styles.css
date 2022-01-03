@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, 
+*::after,
+*::before
+{
+box-sizing: border-box;
+}
+
+.slogan {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+body {
+  background-color: #f0f0f0;
+  color: rgb(31, 32, 31);
+  font-size: 16  px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header_container {
+  display: block;
+  margin: 0 auto;
+}
+.nav_container {
+  background-color: #F3FAFF;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 10px 0;
+}
+.header_preview {
+  display: flex;
+  background-color: #f4ffe7;
+}
+.header_preview_avatar{
+  padding: 20px 20px 20px 30px;
+}
+.header_preview_about {
+  margin-left: 10%;
+}
+.avatar {
+  border-radius: 100px;
+}
+
+.main_container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.main_container_left{
+  width: 30%;
+  padding: 0 20px 20px 30px;
+  background-color: #fffaf2;
+}
+
+.main_container_right {
+  width: 70%;
+  padding: 0 20px 0 30px;
+  background-color: #fffeea;
+}
+.style_code {
+  margin: 5px 0 10px 0;
+}
+.pre_block_code {
+  background-color: #878787;
+  color: #ffffff;
+}
+
+.footer_container {
+  padding: 5px 0 5px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F3FAFF;
+}
+.footer_container_git {
+  display: flex;
+  align-items: center;
+}
+.footer_container_date {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* property for certain elements */
+a {
+  color: darkblue;
+  text-decoration: none;
+  /* link wo underline */
+}
+a:hover {
+  text-decoration: underline;
+} /*event when cursor on */
+a:active {
+  color: blue;
+}
+a:visited {
+  color: grey;
+}
+.hr_column {
+  width: 80%;
+  /* size: 10px; */
+}
+
+/* property for change size screen */
+@media (max-width: 768px){
+  h1,h2,h3,h4,h5,h6{
+    margin: 0;
+  }
+  .main_container {
+    flex-direction: column;
+  }
+  .main_container_left {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main_container_right {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  .header_preview {
+    flex-direction: column;
+  }
+  .nav_container {
+    flex-direction: column;
+  }
+  .nav_list li {
+    margin: 0 5%;
+  }
+  .header_preview_avatar{
+    padding: 10px 0 0 30px;
+  }
+}

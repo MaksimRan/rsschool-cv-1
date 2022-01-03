@@ -5,121 +5,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>A_Verbitsky_CV</title>
+  <title>AVerbitsky CV</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-  <!-- <img src="image/avatar4.jpeg" alt="myself" class="avatar"> -->
-  <h2>Alexander Verbitsky</h2>
-  <p>
-    Bicycle, travel and programming
-  </p>
-  <hr>
+  <header>
+    <div class="header_container">
+      <nav class="nav_container">
+        <ul class="nav_list">
+          <li> <a class="nav_container_about" href="#link_contacts">Contacts</a></li>
+          <li><a class="nav_container_about" href="#link_skills">Skills</a></li>
+          <li><a class="nav_container_about" href="#link_about_me">About</a></li>
+          <li><a class="nav_container_about" href="#link_work_experience">Work experience</a></li>
+          <li><a class="nav_container_about" href="#link_education">Education</a></li>
+          <li><a class="nav_container_about" href="#link_code_projects">Code & Projects</a></li>
+          <li><a class="nav_container_about" href="#link_english">English</a></li>
+        </ul>
+      </nav>
 
-  <div class="block bgYellow">
-    <h2>Contact info</h2>
-    <ul>
-      <li>Location: Gomel, Belarus</li>
-      <li>Email: rydvone@gmail.com</li>
-      <li>Linkedin: <a href="https://www.linkedin.com/in/alexander-verbitsky-67243921a/"
-          target="_blank">alexander-verbitsky</a></li>
-      <li>Discord: Alexander V (@rydvone)</li>
-      <li>Github: <a href="https://github.com/rydvone">rydvone</a></li>
-    </ul>
-  </div>
-  <hr>
+      <div class="header_preview">
+        <div class="header_preview_avatar">
+          <img class="avatar" src="image/avatar.jpg" alt="my_avatar">
+        </div>
+        <div class="header_preview_about">
+          <h1>Alexander Verbitsky</h1>
+          <p class="slogan">
+            Bicycle, travel and programming
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <div class="block">
-    <h2>About me</h2>
-    <p>
-      I want to change my profession from an automated control system software engineer to an IT software engineer.
-      </br>My main job is programming industrial logic controllers and ABB robot manipulator. This requires the
-      development of correct logical sequences.
-      <br>Also, in my daily work, I have to work with local networks, VPN connections, virtual machines, setting up
-      personal computers, Linux.
-      <br>I rate myself responsible enough. I can establish good communication with people, I am quite correct. I have a
-      mathematical mindset. I can work hard if necessary.
-      <br>I always try to learn something new, I like to learn. At first, I worked at the company as working specialty,
-      but if possible, I moved to the position of software engineer. I was not afraid of the fact that I had to study a
-      lot of different documentation. Therefore, I am sure that I will be able to prove myself when studying a new
-      profession.
-    <blockquote>...you can't win if you don't play</blockquote>
-    </p>
-  </div>
-  <hr>
+  <main>
+    <div class="main_container">
+      <div class="main_container_left">
+        <div class="column">
+          <h2><a id="link_contacts"></a>Contacts</h2>
+          <ul>
+            <li>Location: Gomel, Belarus</li>
+            <li>Email: rydvone@gmail.com</li>
+            <li>Linkedin: <a href="https://www.linkedin.com/in/alexander-verbitsky-67243921a/"
+                target="_blank">alexander-verbitsky</a></li>
+            <li>Discord: Alexander V (@rydvone)</li>
+            <li>Github: <a href="https://github.com/rydvone">rydvone</a></li>
+          </ul>
+        </div>
+        <hr class="hr_column">
 
-  <div class="block">
-    <h2>Skills</h2>
-    <br>Git, Linux, Powershell beginner, Virtualization, Networks beginner level (osi, tcp ip, vpn).
-    <br>Industrial programming: Step7, WinCC, TIA Portal, Omron, Promotic, ABB Robot Programming (ABB RobotStudio).
-    Electronics Adjuster.
-  </div>
-  <hr>
+        <div class="column">
+          <h2><a id="link_skills"></a>Skills</h2>
+          <ul>
+            <li>Git, HTML, CSS</li>
+            <li>Linux, Powershell beginner, Virtualization, Networks</li>
+            <li>Industrial programming</li>
+          </ul>
+        </div>
+        <hr class="hr_column">
 
-  <div class="block">
-    <h2>Code examples</h2>
-  </div>
-  <hr>
+        <div class="column">
+          <h2><a id="link_english"></a>English</h2>
+          <div>A2 (EPAM English test result)</div>
+        </div>
+        <hr class="hr_column">
+      </div>
 
-  <div class="block">
-    <h2>Work experience</h2>
-    <table border="3" class="table">
-      <caption>My work experience</caption>
-      <thead>
-        <tr>
-          <th>Company</th>
-          <th>Position</th>
-          <th>Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>JSC Gomelstroymaterialy</td>
-          <td>Software Engineer for Automated Control System</td>
-          <td>feb. 2019 - till now</td>
-        </tr>
-        <tr>
-          <td>JSC Gomelstroymaterialy</td>
-          <td>Instrumentation and Control System Adjuster</td>
-          <td>apr. 2012 - feb. 2019</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <hr>
+      <div class="main_container_right">
+        <div class="column">
+          <h2><a id="link_about_me"></a>About me</h2>
+          I want to change my profession from an automated control system software engineer to an IT software engineer.
+          <br>I rate myself responsible enough. I can establish good communication with people. I have a mathematical mindset. I can work hard if necessary.
+          <br>I always try to learn something new and I like to learn.
+        </div>
+        <hr class="hr_column">
 
+        <div class="column">
+          <h2><a id="link_work_experience"></a>Work experience</h2>
+          <ul>
+            <li>JSC Gomelstroymaterialy - Software Engineer for Automated Control System
+              <br>feb. 2019 - till now
+            </li>
+            <li>JSC Gomelstroymaterialy - Instrumentation and Control System Adjuster
+              <br>apr. 2012 - feb. 2019
+            </li>
+          </ul>
+        </div>
+        <hr class="hr_column">
 
-  <div class="block">
-    <h2>Education</h2>
-    <h4>University</h4>
-    <ul>
-      <li>Sukhoi State Technical University of Gomel, Industrial Electronics,<br>Engineer by radio electronics</li>
-      <li>Sukhoi State Technical University of Gomel, Industrial Electronics,<br>Master's degree</li>
-    </ul>
-    <h4>Course</h4>
-    <ul>
-      <li>ABB Robot Programming Course: "Course RU002 Robot Programmer (IRC5)"</li>
-      <li>Course "Basics of programming OMRON logic controllers"</li>
-    </ul>
-  </div>
-  <hr>
+        <div class="column">
+          <h2><a id="link_education"></a>Education</h2>
+          <ul>
+            <li>Sukhoi State Technical University of Gomel, Engineer by radioelectronics
+              <br>Bachelor's degree
+            </li>
+            <li>Sukhoi State Technical University of Gomel,
+              <br>Master's degree
+            </li>
+          </ul>
+        </div>
+        <hr class="hr_column">
 
+        <div class="column style_code">
+          <h2><a id="link_code_projects"></a>Code and Projects examples</h2>
+          <div class="column style_code">
+            <div class="bold">
+              Project examples
+            </div>
+            <a href="https://rydvone.github.io/rsschool-cv/"> HTML pages with CSS styles</a>
+          </div>
+          <div class="bold">
+            Code examples
+          </div>
+          <pre class="pre_block_code">
+                  <code>
+  function isDivideBy(number, a, b) {
+    if ((number % a == 0) && (number % b == 0)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+                  </code>
+                </pre>
+        </div>
+      </div>
 
-  <div class="block">
-    <h2>English</h2>
-    <div>A2 (EPAM English test result)</div>
-  </div>
-  <hr>
-
+    </div>
+  </main>
 
   <footer>
-    <form action="/">
-      <label for="name">Your email:</label>
-      <input type="text" id='name' placeholder="write your email">
-      <input type="submit" value="Connect">
-    </form>
+    <div class="footer_container">
+      <a class="footer_container_git" href="https://github.com/rydvone"><img src="image/logo_github.png" width="30"
+          height="30" alt="logo_github">Github</a>
+      <div class="footer_container_date">created in 2022</div>
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="60" height="30"
+          alt="logo_rsschool"></a>
+    </div>
   </footer>
+
 </body>
 
 </html>
